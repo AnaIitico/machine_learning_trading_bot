@@ -77,7 +77,7 @@ This is an Application that implements an algorithmic trading strategy that uses
 #### Summary of Analysis
 
 * The `Baseline Strategy` performance was very good overall considering the response during periods on volatility in the market.  The  `Strategy Returns` column yielded better results thant the `Actual Returns` column for this strategy almost consistently
-[Baseline strategy Screenshot][baseline-strategy-screenshot]
+[Baseline Screenshot][baseline-screenshot]
 
 
 <!-- GETTING STARTED -->
@@ -213,4 +213,4 @@ Other Dependencies used to build the project.
 [linkedin-url]: https://www.linkedin.com/in/josetollinchi/
 <!-- [exchange-january-screenshot]: /images/exchange_january_2018.JPG
 [exchange-march-screenshot]: /images/exchange_march_2018.JPG -->
-[baseline-strategy-screenshot]: /images/baseline_strategy_returns.png
+[baseline-screenshot]: /images/baseline_strategy_returns.png
