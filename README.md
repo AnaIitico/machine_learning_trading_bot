@@ -213,4 +213,4 @@ Other Dependencies used to build the project.
 [linkedin-url]: https://www.linkedin.com/in/josetollinchi/
 <!-- [exchange-january-screenshot]: /images/exchange_january_2018.JPG
 [exchange-march-screenshot]: /images/exchange_march_2018.JPG -->
-[baseline-screenshot]: /images/baseline_strategy_returns.png
+[baseline-screenshot]: images/baseline_strategy_returns.png
