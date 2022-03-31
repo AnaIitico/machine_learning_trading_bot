@@ -83,11 +83,15 @@ This is an Application that implements an algorithmic trading strategy that uses
 
 * The `Support Vector Machine Strategy` performance was very good overall considering the response during periods on volatility in the market.  The  `Strategy Returns` column yielded better results thant the `Actual Returns` column for this strategy almost consistently. This model attempts to establish a relationship based on geometrical properties of data. It tries to finds the distance that separates the distance between the classes - in this case the classes are the classifications into the `signals_df['Signal']` column as a `1` or `-1`.
 ![Baseline Screenshot](images/support_vector_machine.png)
+* Changing the `SMA_Slow` to a larger number decreased the overall returns as shown in the `SMA_Slow = 13` screenshot where you can see that the `Actual Returns` line matches the `Strategy Returns` line.
+![Baseline Screenshot_13](images/support_vector_machine_13.png)
 
 * The `LogisticRegression Strategy` performance was worse in comparison and seemed to stop working after some time. It attempts to establish a dependent type of relationship between the two moving averages which is not the best approach for this model.  Predicting a dependency between the `SMA_Slow` and the `SMA_Fast` creates a fragile relationship vulnerable to overfitting, which the model exposed.
 ![LogisticRegression Screenshot](images/logisticregression_strategy_returns.png)
+* Changing the `SMA_Slow` to a larger number increased the overall performance slightly but still has catastrophic results in the end.
+![LogisticRegression Screenshot_13](images/logisticregression_strategy_returns_13.png)
 
-* RECOMMENDATION - The `Support Vector Machine Strategy` is the best strategy for this model and asset.  Markets have geometrical properties of data, as well as unstructured and semi-structured properties of data and this is the best approach for the strategy of predicting two crossing moving averages.
+* RECOMMENDATION - The `Support Vector Machine Strategy` is the best strategy for this model and asset.  Markets have geometrical properties of data, as well as unstructured and semi-structured properties of data and this is the best approach for the strategy of predicting two crossing moving averages. 
 
 <!-- GETTING STARTED -->
 ## Getting Started
